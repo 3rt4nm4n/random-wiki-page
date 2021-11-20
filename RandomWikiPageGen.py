@@ -16,7 +16,7 @@ while(True):
     ans=input("").lower()    
     
     if ans=="y":
-        urll="https:http://"+language1+".wikipedia.org/wiki/%s"%title
+        urll="https://"+language1+".wikipedia.org/wiki/%s"%title
         print (urll)
         wikiURL=urll
         webbrowser.open(wikiURL)
